@@ -90,12 +90,12 @@ public class MainActivity extends ListActivity {
                 }
 
                 String base64String = model.getImage();
-                ImageView imageView1 = (ImageView)v.findViewById(R.id.imageView1);
+                ImageView imageView2 = (ImageView)v.findViewById(R.id.imageView2);
                 if (base64String == null || base64String == "") {
-                    imageView1.setVisibility(View.GONE);
+                    imageView2.setVisibility(View.GONE);
                 }
                 else {
-                    imageView1.setImageBitmap(BitmapConverter.getBitmap((base64String)));
+                    imageView2.setImageBitmap(BitmapConverter.getBitmap((base64String)));
                 }
             }
         };
