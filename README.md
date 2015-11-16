@@ -6,3 +6,4 @@ Firebase codelabs [nanochat][codelabs] exercise ... Now with text and **images!*
 
 [codelabs]: https://github.com/firebase/FirebaseUI-Android/tree/master/codelabs/chat
 
+<img alt="Firebase Nanochat" src="screenshot.png" width="404" />
